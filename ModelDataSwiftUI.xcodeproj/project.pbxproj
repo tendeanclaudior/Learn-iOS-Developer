@@ -11,6 +11,8 @@
 		E32839FF2A126C260025F4AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32839FE2A126C260025F4AE /* ContentView.swift */; };
 		E3283A012A126C280025F4AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3283A002A126C280025F4AE /* Assets.xcassets */; };
 		E3283A042A126C280025F4AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3283A032A126C280025F4AE /* Preview Assets.xcassets */; };
+		E3283A0B2A1340FD0025F4AE /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3283A0A2A1340FD0025F4AE /* DataModel.swift */; };
+		E3283A0D2A13418D0025F4AE /* GlobalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3283A0C2A13418D0025F4AE /* GlobalObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		E32839FE2A126C260025F4AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E3283A002A126C280025F4AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3283A032A126C280025F4AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3283A0A2A1340FD0025F4AE /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		E3283A0C2A13418D0025F4AE /* GlobalObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				E32839FE2A126C260025F4AE /* ContentView.swift */,
 				E3283A002A126C280025F4AE /* Assets.xcassets */,
 				E3283A022A126C280025F4AE /* Preview Content */,
+				E3283A0A2A1340FD0025F4AE /* DataModel.swift */,
+				E3283A0C2A13418D0025F4AE /* GlobalObject.swift */,
 			);
 			path = ModelDataSwiftUI;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E32839FF2A126C260025F4AE /* ContentView.swift in Sources */,
+				E3283A0D2A13418D0025F4AE /* GlobalObject.swift in Sources */,
 				E32839FD2A126C260025F4AE /* ModelDataSwiftUIApp.swift in Sources */,
+				E3283A0B2A1340FD0025F4AE /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
